@@ -6,6 +6,7 @@ onready var state_machine = $StateMachine
 onready var anim_player = $AnimationPlayer
 onready var body = $BodyPivot/Body
 onready var purse = $Purse
+onready var one = 1
 
 func _ready():
 	anim_player.play('SETUP')
